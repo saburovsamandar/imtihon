@@ -69,6 +69,8 @@ a{
   justify-content: space-between;
   text-align: center;
   align-items: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .header-navlogo-img{
@@ -320,6 +322,26 @@ height: 120px;
 .how-works-list-top{
   display: flex;
 margin-top: 70px;
+}
+
+
+.how-works-list-img{
+  position: relative;
+}
+
+.how-works-list-img::before{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right: -100px;
+  top: 146px;
+  width: 200px;
+  height: 200px;
+  border-radius: 300px;
+  background-image: url("/images/videoni\ ustidagi\ narsa.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 120px;
 }
 
 .how-works-list-top-img{
@@ -685,7 +707,7 @@ color: #486958;
     .container{
       width:800px;
       margin: 0 auto;
-      padding:0 65px;
+      padding:0 15px;
      
     } 
     
@@ -764,6 +786,13 @@ color: #486958;
       color: #1C2323;  
 
     }
+    
+    
+    .main-hero-list1{
+      width: 100%;
+
+    }
+
 
     /* saburov samandar */
     .main-hero-list{
@@ -791,6 +820,11 @@ color: #486958;
      
     }
 
+    .how-works-list-img::before{
+      content: "";
+      display: inline-block;
+      opacity: 0;
+    }
     
     .how-works-list-top{
       display: flex;
@@ -924,7 +958,7 @@ color: #486958;
       width: 550px;
       margin-left: auto;
       margin-right: auto;
-      padding: 0 91px;
+      padding: 0 15px;
     }
     .main-hero-list-theme{
       font-family: 'Poppins';
@@ -936,6 +970,10 @@ color: #486958;
       color: #1C2323;  
     }
 
+
+    .header-nav-list{
+      gap: 25px;
+    }
     .main-hero-list-text{
       font-family: 'Poppins';
       font-style: normal;
@@ -978,12 +1016,24 @@ color: #486958;
       align-items: center;
       text-align: center;
     }
+
+  
+    
     .about-list2{
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
     }
+
+    .about-list-item-theme-text{
+      width: 100%;
+    }
+
+    .about-list-item-theme-img{
+      width: 100%;
+    }
+
 
     .Testimonial-list-theme-logo{
       display: flex;
@@ -1098,6 +1148,15 @@ color: #486958;
    .testinail-list2{
     gap: 5px;
    }
+
+
+   .how-works-list-top-theme-text{
+    width: 100%;
+   }
+
+   .about-list-theme{
+    margin-top: 25px;
+   }
    .foter{
     display: flex;
     flex-direction: column;
@@ -1180,7 +1239,7 @@ color: #486958;
    }
 
   .header-nav-list{
-    gap: 5px;
+    gap: 25px;
   }
 
    .header-navlogo-img{
@@ -1272,12 +1331,14 @@ color: #486958;
    
 
     .main-hero-list1{
-      width: 200px;
+      width: 100%;
+      height: 100%;
       border-radius: 2px;
     }
 
     .main-hero-list-img{
       width: 100%;
+      height: 300px;
     }
 
     .how-works-list-theme{
@@ -1291,7 +1352,7 @@ color: #486958;
     }
 
     .how-works-list-img{
-      width: 200px;
+      width: 100%;
     }
 
     .work-img{
@@ -1300,7 +1361,7 @@ color: #486958;
     }
 
     .how-works-list-right{
-      width: 200px;
+      width: 100%;
       padding: 3px;
 
     }
@@ -1310,7 +1371,7 @@ color: #486958;
       width: 100%;
     }
     .how-works-list-top-img{
-      width: 200px;
+      width: 100%;
     }
 
     .how-works{
@@ -1321,13 +1382,13 @@ color: #486958;
       width: 100%;
     }
     .how-works-list-top-theme{
-      width: 200px;
+      width: 100%;
       font-size: 20px;
       line-height: 35px;
     }
     
      .how-works-list-top-theme-text{
-      width: 200px;
+      width: 100%;
       font-size: 15px; 
       line-height: 20px;
       
@@ -1337,24 +1398,24 @@ color: #486958;
       gap: 10px;
     }
     .about-list-theme{
-       width: 200px;
-      font-size: 30px;
+       width: 100%;
+      font-size: 20px;
       line-height: 1px; 
     } 
 
     .about-list-theme-text{
-      width: 200px;
+      width: 100%;
       font-size: 20px;
       line-height: 25px;
     }
 
     .about-list-item-theme{
-      width: 200px;
-      font-size: 20px;
+      width: 100%;
+      font-size: 18px;
     }
 
     .about-list-item-theme-text{
-      width: 200px;
+      width: 100%;
       font-size: 15px;
     }
 
